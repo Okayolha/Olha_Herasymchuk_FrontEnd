@@ -1,0 +1,2 @@
+!function(){var n=document.querySelector(".change-lang"),a=["en","ua"];n.addEventListener("change",(function(){var a=n.value;location.href=window.location.pathname+"#"+a,location.reload()})),function(){var o=window.location.hash;for(var e in o=o.substring(1),a.includes(o)||(location.href=window.location.pathname+"#en",location.reload()),n.value=o,langArr)document.querySelector(".lng-"+e).innerHTML=langArr[e][o]}()}();
+//# sourceMappingURL=index.e417c70c.js.map
